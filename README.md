@@ -23,6 +23,7 @@ $ export PATH="$RISCV/bin:$PATH"
 ```
 $ cat opcode ... | ./parse_opcodes -c > encoding.h
 ```
+where in place of `...` you must put all the _opcodes-rvXXX_ files that refer to the architecture of your RISC-V core under study
 
 - Check _riscv-tools_ "Makefile" to see in which submodule directories the _encoding.h_ should be copied
 
